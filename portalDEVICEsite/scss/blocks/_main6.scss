@@ -1,0 +1,45 @@
+.main6{
+    padding-top: 40px;
+   .main6__inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .TabletWithAlexaAbout{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    .ImGAlexaTablet{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .learnMore{
+        background-color: #ADD4E0;
+        width: 127px;
+        height: 46px;
+        margin-top: 30px;
+        
+
+    }
+    .bigTextAlexa {
+        font-weight: 700;
+        line-height: 55px;
+        font-size: 50px;
+    }
+    .aboutAlex {
+        font-weight: 400;
+        line-height: 23px;
+        font-size: 17px;
+        color: #615E5C;
+    }
+    .AmazonText{
+        font-weight: 400;
+        line-height: 18px;
+        font-size: 11px;
+        color: #AEABA8;
+    }
+   } 
+}

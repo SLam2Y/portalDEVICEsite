@@ -1,0 +1,116 @@
+.footer{
+    background-color:#272E38 ;
+    .footer__inner{
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+        
+        .footerWithoutText{
+            display: flex;
+            flex-direction: row;
+        }
+        .footet__logo{
+            display: flex;
+            width: 330px;
+            height: 300px;
+        
+
+        }
+
+        .footerNavlists{
+            
+
+            display: flex;
+            gap: 100px;
+
+        }
+        
+        .footer1List{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            color: #DADBDD;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 21px;
+        }
+        .footer2List{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            color: #DADBDD;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 21px;
+        }
+
+        .mailSend{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-left: 180px;
+            .mailSend-text{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+               color: #9CA5B0;
+            }
+            .signup{
+                color: #1B365D;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                width: 103px;
+                height: 40px;
+                cursor: pointer;
+            }
+            .ChoseLocation{
+                margin-top: 50px;
+                background-color: transparent;
+                font-weight: 400;
+                font-size: 11px;
+                line-height: 17px;
+                width: 250px;
+                height: 40px;
+                color: #FFFFFF;
+                border: 1px solid #3D434C;
+            }
+        }
+
+
+        
+    }
+
+    .footerText{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 856px;
+       margin-left: 330px;
+        
+        padding-bottom: 40px;
+      
+    }
+    .footerText1{
+      
+        font-weight: 400;
+            font-size: 11px;
+            line-height: 17px;
+            color: #9CA5B0;
+    }
+    .footerText2{
+        
+        font-weight: 400;
+            font-size: 11px;
+            line-height: 17px;
+            color: #9CA5B0;
+    }
+    .footerText3{
+        
+        font-weight: 400;
+            font-size: 11px;
+            line-height: 17px;
+            color: #9CA5B0;
+    }
+
+}

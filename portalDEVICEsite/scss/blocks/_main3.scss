@@ -1,0 +1,48 @@
+.main3{
+    
+    .backMain3Color{
+       background-image: url(../img/image_2024-06-26_19-08-51.png);
+       background-position: center bottom;
+       background-repeat: no-repeat;
+       background-size: 100% 60% ;
+    padding-bottom: 25px;
+        
+    }
+    .underImgText{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        
+        .textKeepUp{
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+       .textKeepUp-big{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        color: #1B365D;
+       } 
+       .textKeepUp-small{
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 23px;
+        color: #434141;
+       }
+       .textKeepUp-link{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #1B365D;
+       }
+       .textEveryone{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    }
+}

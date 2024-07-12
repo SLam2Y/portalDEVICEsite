@@ -1,0 +1,55 @@
+.main4 {
+    margin-top: 20px;
+    .main4__inner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 40px;
+        .main4Img{
+           
+            @include tablet{
+                
+        
+            }
+            @include mobile{
+               
+            }
+    }
+    .tabletDiscription{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .socialMain4{
+        gap: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    .tabletDiscription-text1{
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 55px;
+        color: #1B365D;
+    }
+    .tabletDiscription-text3{
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 23px;
+        color: #615E5C;
+    }
+    .tabletDiscription-text3{
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 18px;
+        color: #AEABA8;
+        
+        .abletDiscription-text3-lick{
+           :hover{
+            border-bottom: 1px solid black;
+           }
+            
+        }
+    }
+    
+}
+}

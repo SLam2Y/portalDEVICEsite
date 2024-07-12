@@ -1,0 +1,64 @@
+.main7{
+    margin-top: 40px;
+    background-image: url(../img/image_2024-06-26_19-08-51.png);
+       background-position: center bottom;
+       background-repeat: no-repeat;
+       background-size: 100% 60% ;
+    padding-bottom: 25px;
+    .main7__inner{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .leftBlock{
+            width: 622px;
+            height: 622px;
+            background-image: url(../img/RectangleM7.png);
+            display: flex;
+            flex-direction: column;
+            padding-left: 30px;
+            padding-top: 40px;
+            gap: 20px;
+            .leftBlock-bigText{
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 34px;
+            }
+            .leftBlock-smalText{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 22px;
+            }
+
+        }
+        .riteBlock{
+            width: 622px;
+            height: 622px;
+            background-image: url(../img/RectangleM77.png);
+            display: flex;
+            flex-direction: column;
+            color: white;
+            padding-left: 30px;
+            padding-top: 40px;
+            gap: 20px;
+            .riteBlock-bigText{
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 34px;
+            }
+            .riteBlock-smalText{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 22px;
+            }
+
+        }
+        .buttonM7{
+            background-color: transparent;
+            padding-top: 19px;
+        } 
+        .buttonM77{
+            background-color: transparent;
+            color: white;
+        } 
+    }
+}

@@ -1,0 +1,79 @@
+.main2{
+    margin-top: 70px;
+    .main2__inner{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        .main2Rectangle-text2{
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 21px;
+            padding-bottom: 20px;
+
+        }
+        .main2Rectangle-text1{
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+        }
+        .main2Rectangle-text3{
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        .__inner-main2RectangleFirst{
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            width: 304px;
+            height: 587px;
+            background-image: url(../img/Rectangle222.png);
+            background-repeat: no-repeat;
+            color: white;
+            text-align: center;
+            
+            
+        }
+        .__inner-main2RectangleSecond{
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            width: 304px;
+            height: 587px;
+            background-image: url(../img/Rectangle22.png);
+            background-repeat: no-repeat;
+            color: white;
+            text-align: center;
+        }
+        .__inner-main2RectangleThird{
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            width: 304px;
+            height: 587px;
+            background-image: url(../img/Rectangle2222.png);
+            background-repeat: no-repeat;
+            color: white;
+            text-align: center;
+        }
+        .__inner-main2Rectangle4{
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            width: 304px;
+            height: 587px;
+            background-image: url(../img/Rectangle2.png);
+            background-repeat: no-repeat;
+            color: white;
+            text-align: center;
+        }
+    }
+    .h1Main2{
+        display: flex;
+        color: #1B365D;
+    }
+}

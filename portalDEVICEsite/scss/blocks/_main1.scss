@@ -1,0 +1,59 @@
+.main1{
+   
+    
+    background-image: url(../img/backImageMain1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 97%;
+    @include tablet{
+        background-position:center;
+    }
+    @include mobile{
+        
+        background-position:center;
+       
+    }
+    &__inner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 740px ;
+        
+       
+
+        .inner-BigText{
+            font-weight: 700;
+            line-height: 62px;
+            font-size: 56px;
+            color: #1B365D;
+            margin-bottom: 20px;
+
+
+        }
+
+    }
+    .main1__buttonWatch{
+       margin-top: 50px;
+    }
+    .main1__buttonCompare{
+        background-color: transparent;
+    }
+
+    .pink-rectangle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 86px;
+        background-color: #F1C0C7;
+        .__forPinktextFirst{
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 21px;
+        }
+        .__forPinktextsecond{
+            font-weight: 400;
+            font-size: 14px;
+            line-height:20px;
+        }
+    }
+}

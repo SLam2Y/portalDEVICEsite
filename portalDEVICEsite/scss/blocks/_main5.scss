@@ -1,0 +1,16 @@
+.main5{
+    background-image:url(../img/RectanglMain5.png) ;
+    background-position: center ;
+    background-repeat: no-repeat;
+    
+    min-height: 620px;
+    .main5__inner{
+        min-height: 620px;
+        display: flex;
+        justify-content: end;
+        align-items: start;
+        flex-direction: column;
+        color: white;
+      
+    }
+}
